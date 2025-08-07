@@ -1,0 +1,10 @@
+
+[language-server]
+shellcheck = {command = "shellcheck"}
+
+[[language]]
+name = "bash"
+language-servers = [ "shellcheck" ]
+
+[language-server.bash]
+command = "shellcheck"
