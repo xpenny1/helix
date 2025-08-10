@@ -1,0 +1,4 @@
+
+[[language]]
+name = "typst"
+language-servers = [ "tinymist" ]

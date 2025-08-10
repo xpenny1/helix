@@ -1,3 +1,7 @@
 
 
 theme = "gruber-darker"
+
+[keys.normal]
+S-r = [":w",":sh bash %{buffer_name}"]
+
